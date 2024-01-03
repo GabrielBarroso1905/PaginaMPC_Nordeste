@@ -9,15 +9,35 @@ export const GridContent = ({
   sectionId = '',
 }) => {
   return (
-    <SectionBackground background={background} sectionId={sectionId}>
+    <SectionBackground background={background} color = {"#3aa8ee"} sectionId={sectionId}>
       <Styled.Container>
-        <Heading uppercase colorDark={!background} as="h2">
+        <Heading size='big' uppercase colorDark={!background} as="h2">
           {mock.title}
         </Heading>
-        <Styled.Html>
+      
+      <Styled.Container2>
+
+        <Styled.ImageContainer>
+     <Styled.Image src={mock.image}/>
+     </Styled.ImageContainer>
+     
+     <Styled.ImageContainer>
+     <Styled.Image src={mock.image2}/>
+     </Styled.ImageContainer>
+     
+     <Styled.ImageContainer>
+     <Styled.Image src={mock.image3}/>
+     </Styled.ImageContainer>
+      </Styled.Container2>
+
+       <Styled.Html>
           <TextComponent>{mock.html}</TextComponent>
         </Styled.Html>
-      </Styled.Container>
+
+      
+
+       
+      </Styled.Container> 
     </SectionBackground>
   );
 };

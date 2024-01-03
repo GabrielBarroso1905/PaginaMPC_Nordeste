@@ -11,7 +11,7 @@ export default {
 export const Template = (args) => {
   return (
     <div>
-      <GridContent {...args} />
+      <GridContent {...args} background />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 export const Container = styled.div`
  ${({ theme, size }) => css`
+
     font-size: ${
-      
         size === 'small'
       ? theme.font.sizes.small
       : size === 'medium'

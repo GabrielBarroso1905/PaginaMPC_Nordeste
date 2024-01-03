@@ -24,10 +24,10 @@ export const AboutUs = ({sectionId, background }) => {
     <Styled.About>
              <SectionContainer>
              <Heading size='medium' color={theme.colors.secondaryColor} uppercase as="h2">
-            About Us
+              Quem Somos ?
             </Heading>
           <TextComponent size='small'>{data.paragraph ? data.paragraph : 'loading...'}</TextComponent>
-          <Heading size="small" colorDark={!background} uppercase as="h2">Why Choose Us?</Heading>        
+          <Heading size="small" colorDark={!background} uppercase as="h2">Ministérios:</Heading>        
                 <Styled.List >
                   <ul>
                     {data.Why

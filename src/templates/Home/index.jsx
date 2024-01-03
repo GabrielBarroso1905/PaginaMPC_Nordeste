@@ -17,6 +17,7 @@ import { Questions2 } from '../../components/Questions2';
 import { InfoSection } from '../../components/InfoSection';
 import { InfoSection2 } from '../../components/InfoSection2';
 import { Features } from '../../components/Features';
+import AboutUs2 from '../../components/AboutUs2';
 
 export const Home = () => {
 
@@ -104,17 +105,20 @@ const argsServices= {
   return (
     <>
         <Base {...mockBase} >
-        <Home1 {...args2} />
-        <GridTwoColumns {...args} background />
         <Home2 {...args2}  />
+        <AboutUs background={false} />
+        <GridContent background sectionId = 'target2'/>
+        <AboutUs2 background={true} />
+        <AboutUs background={true} />
+        <Home1 {...args2} />
+        <GridText sectionId = 'target3'/> 
+        <GridTwoColumns {...args} background />
+ 
         <Features/>
         <InfoSection2 sectionId = 'target1' background />
-        <AboutUs background={true} />
-        <GridContent background sectionId = 'target2'/>
         <InfoSection sectionId = 'target1' />
        
        
-        <GridText sectionId = 'target3'/>
         <GridVideo
          const videoUrl = 'https://www.youtube.com/watch?v=HGTJBPNC-Gw'
          text="Texto que será exibido em cima do vídeo"

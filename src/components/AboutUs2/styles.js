@@ -4,7 +4,7 @@ import { Title } from '../Heading/styles';
 export const Container = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 4fr 2fr;
     align-items: center;
     gap: ${theme.spacings.small}; /* Reduzimos o espaçamento entre os elementos */
 
@@ -36,7 +36,7 @@ export const P = styled.p`
 export const ImageContainer = styled.div`
   ${({ theme }) => css`
     text-align: center;
-    max-width: 100%;
+    max-width: 90%;
     
     /* Ajuste para manter a imagem grande e movê-la para cima em telas menores */
     @media (max-width: ${theme.media.lteMedium}) {
@@ -48,7 +48,12 @@ export const ImageContainer = styled.div`
 export const Image = styled.img`
   ${({ theme }) => css`
     max-width: 100%;
-    border-radius: 10%;
+    border-radius: 5%;
+  `}
+`;
+export const title = styled.div`
+  ${({ theme }) => css`
+  text-align: center;
   `}
 `;
 

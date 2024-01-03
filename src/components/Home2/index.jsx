@@ -11,13 +11,12 @@ export const Home2 = ({background = false,sectionId}) => {
         <div id={sectionId}>
         <SectionBackgroundImage>        
           <Styled.IntroTextContainer>
-          <Heading size="huge">
-          Como criar uma rotina de cuidados com a pele do rosto
+          <Heading size="huge" color='#FFEA00'>
+          MPC São Luis
            </Heading>   
-                <TextComponent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."</TextComponent>
-                <Styled.Btn colorDark={background} >
-                  Learn More
-                 </Styled.Btn>
+                <Heading size="medium" color='white'>
+                Ao compasso dos Tempos, mais Ancorada na Rocha
+                </Heading>   
           </Styled.IntroTextContainer>
         </SectionBackgroundImage>
 

@@ -116,6 +116,7 @@ export const Btn = styled.button`
   }
  `}
 `;
+// color: ${theme.colors.primaryColor}
 export const IntroTextContainer = styled.div`
   padding-top: 350px;
   padding-bottom: 200px;
@@ -133,7 +134,11 @@ export const IntroTextContainer2 = styled.div`
 
 `;
 
-
+export const textColor = styled.div`
+  ${({ theme }) => css`
+  color: ${theme.colors.white}
+  `}
+`;
 
 
 
