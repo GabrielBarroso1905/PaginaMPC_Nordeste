@@ -14,9 +14,11 @@ export const Home2 = ({background = false,sectionId}) => {
           <Heading size="huge" color='#FFEA00'>
           MPC São Luis
            </Heading>   
+         < Styled.Background>
                 <Heading size="medium" color='white'>
                 Ao compasso dos Tempos, mais Ancorada na Rocha
                 </Heading>   
+         </Styled.Background>
           </Styled.IntroTextContainer>
         </SectionBackgroundImage>
 

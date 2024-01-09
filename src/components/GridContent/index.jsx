@@ -27,7 +27,9 @@ export const GridContent = ({
      
      <Styled.ImageContainer>
      <Styled.Image src={mock.image3}/>
+     
      </Styled.ImageContainer>
+
       </Styled.Container2>
 
        <Styled.Html>

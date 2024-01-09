@@ -66,6 +66,12 @@ export const Titulo = styled.div`
     }
   `}
 `;
+export const Background = styled.div`
+  ${({ theme }) => css`
+  background-color: #0346139F;
+  border-radius: 10px;
+  `}
+`;
 
 export const BlueBar = styled.div`
   width: 50px; /* Largura da barra */

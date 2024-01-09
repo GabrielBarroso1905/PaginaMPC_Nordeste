@@ -6,7 +6,13 @@ export const Container = styled.div`
   ${({ theme }) => css`
     ${TextComponent} {
       margin-bottom: ${theme.spacings.xhuge};
+      
     }
+  `}
+`;
+export const Container2 = styled.div`
+  ${({ theme }) => css`
+    text-align: center;
   `}
 `;
 
