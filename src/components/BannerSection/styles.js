@@ -5,7 +5,7 @@ import {styled,css} from "styled-components";
 
 export const BannerWrapper = styled.section`
   ${({ theme }) => css`
-  margin-top: 8rem;
+  margin-top: rem;
     @media ${theme.media.lteMedium} {
     margin-top: 1rem;
     }
@@ -18,7 +18,7 @@ export const BannerContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0rem;
+  padding: 0rem 0rem;
   margin: auto;
   /* max-width: 1440px; */
   position: relative;
@@ -37,7 +37,7 @@ export const BannerTitle = styled.h3`
   font-size: clamp(5rem, 4vw, 8.1rem);
   color: ${theme.colors.white};
   font-weight: 400;
-  max-width: 50%;
+  max-width: 60%;
   line-height: 1;
   margin-left: 4rem;
 

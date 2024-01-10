@@ -1,6 +1,6 @@
  // eslint-disable-next-line
  export default{
-    title : "Find out more about how we work" ,
+    title : "Conheça mais sobre nosso trabalho" ,
     buttonText : "how whe work"
 }
     
