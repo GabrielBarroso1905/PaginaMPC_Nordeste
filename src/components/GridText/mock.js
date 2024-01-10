@@ -2,6 +2,7 @@
 export default {
   background: false,
   title: 'QUEM É A MPC? ',
+  title2: 'Nossos valores',
   description:
     'A MPC é um movimento cristão que busca resgatar jovens através das boas novas de Deus. Tudo começou em 1940 nos Estados Unidos e hoje a missão está presente em mais de 100 países.',
   grid: [

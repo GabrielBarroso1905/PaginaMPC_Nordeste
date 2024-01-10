@@ -11,10 +11,18 @@ export const GridText = ({
   return (
     <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
+       
         <Heading color="" size="huge" uppercase colorDark={!background} as="h2">
           {mock.title}
         </Heading>
         <TextComponent>{mock.description}</TextComponent>
+
+       <Styled.Container2>
+        <Heading color="" size="big" uppercase colorDark={!background} as="h2">
+          {mock.title2}
+        </Heading>
+       </Styled.Container2>
+      
         <Styled.Grid>
           {mock.grid.map((el) => (
             <Styled.GridElement key={el.title}>
