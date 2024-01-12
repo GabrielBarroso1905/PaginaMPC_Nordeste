@@ -5,7 +5,7 @@ import { Heading } from '../Heading';
 
 import {
     SectionContainer,
-    Line,
+
     CardContainer,
     Card,
     CardTitle,
@@ -14,8 +14,8 @@ import {
     Titulo,
     BlueBar,
    } from './InfoSectionElements';
-    import { ReactComponent as SnappyIcon } from "./images/1.svg";
-    import { ReactComponent as PricesIcon } from "./images/2.svg";
+    import { ReactComponent as SnappyIcon } from "./images/3.svg";
+    import { ReactComponent as PricesIcon } from "./images/3.svg";
     import { ReactComponent as PeopleIcon } from "./images/3.svg";
     
    
@@ -30,7 +30,9 @@ export const InfoSectionTeste = ({sectionId,background}) => {
         
         <CardContainer>
           <Card>
+      
             <SnappyIcon />
+          
             <CardTitle>Capelania Escolar</CardTitle>
             <CardBody>
               Our application process can be completed in minutes, not hours.
@@ -39,7 +41,7 @@ export const InfoSectionTeste = ({sectionId,background}) => {
           </Card>
           <Card>
             <PricesIcon />
-            <CardTitle>Estundantes em Ação</CardTitle>
+            <CardTitle>Estudantes em Ação</CardTitle>
             <CardBody>
               We don't want you worrying about high monthly costs. Our prices
               may be low, but we still offer the best coverage possible.

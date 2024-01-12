@@ -107,8 +107,8 @@ const argsServices= {
     <>
         <Base {...mockBase} >
         <Home2 {...args2}  />
-        <GridText sectionId = 'target3'/> 
-        <InfoSectionTeste sectionId = 'target1'  />
+        <GridText  background sectionId = 'target3'/> 
+        <InfoSectionTeste  sectionId = 'target1'  />
         <GridContent background sectionId = 'target2'/>
         <AboutUs background={false} />
         <AboutUs2 background={true} />

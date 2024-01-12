@@ -18,7 +18,7 @@ export const GridText = ({
         <TextComponent>{mock.description}</TextComponent>
 
        <Styled.Container2>
-        <Heading color="" size="big" uppercase colorDark={!background} as="h2">
+        <Heading color="" size="big" uppercase colorDark={background} as="h2">
           {mock.title2}
         </Heading>
        </Styled.Container2>

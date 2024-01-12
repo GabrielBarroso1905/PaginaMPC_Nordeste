@@ -68,13 +68,6 @@ color: ${theme.colors.black};
 `}
 
 `;
-export const Line = styled.div`
- ${({ theme }) => css` 
-  border-top: 1px solid ${theme.colors.white};
-  width: 160px;
-  padding-bottom: 20px;
-  `}
- `;
 
 export const Titulo = styled.div`
   ${({ theme }) => css`
