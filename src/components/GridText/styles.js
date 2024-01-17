@@ -14,8 +14,8 @@ export const Container = styled.div`
 export const Container2 = styled.div`
   ${({ theme }) => css`
     text-align: center;
-    background: linear-gradient(to right, #54FA8B 10%, #00FC54 100%);
-    border-color: #0F0F0F;
+    background: linear-gradient(to right, #f6f78b 10%, #f6f78b 100%);
+    border-color: #000000;
     border-width: 1px;
     border-style:double;
     border-radius: 15px;

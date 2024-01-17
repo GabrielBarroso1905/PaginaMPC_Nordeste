@@ -16,7 +16,7 @@ export const Home2 = ({background = false,sectionId}) => {
            </Heading>   
          < Styled.Background>
                 <Heading size="medium" color='white'>
-                Ao compasso dos Tempos, mais Ancorada na Rocha
+                Ao compasso dos Tempos, mas Ancorada na Rocha
                 </Heading>   
          </Styled.Background>
           </Styled.IntroTextContainer>

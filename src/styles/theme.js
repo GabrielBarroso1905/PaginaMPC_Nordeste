@@ -6,6 +6,7 @@ export const theme = {
     tertiaryColor: '#FA0000',
     white: '#FFFFFF',
     mediumGray: '#BEBEBE',
+   // #f6f78b
   },
   font: {
     family: {
